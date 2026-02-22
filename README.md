@@ -2,27 +2,27 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# [python beginner helper] 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: ServoX
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Shivani A - Toc h institute of science and technology
+- Member 2: Irine George - Toc h institute of science and technology
 
 ### Hosted Project Link
 [mention your project hosted link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+Our website makes coding easy, friendly, understandable, and stress-free for students.The student types their Python code directly into the website. When they click the run button, the website executes the code in the background. If the program runs successfully, the output is displayed. However, if an error occurs, the system automatically detects the type of error generated
 
 ### The Problem statement
-[What problem are you solving?]
+Many students struggle to understand Python errors.Error messages are technical and confusing.Beginners feel frustrated and lose interest.Teachers cannot help every student instantly.
 
 ### The Solution
-[How are you solving it?]
+Allows students to type Python code.Runs the code.Detects errors.Explains errors in simple English language
 
 ---
 
@@ -31,25 +31,27 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used: python,HTML,CSS,flask
+- Frameworks used: flask
+- Libraries used: flask,sys,io
+- Tools used: Visual Studio Code, python, flask, wb browser, command prompt/poweshell
 
-**For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
-
----
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1: Instant Code Execution
+
+Once the student clicks the “Run” button, the website immediately executes the code in the background. This gives instant results, helping students quickly understand whether their code works or not.
+- Feature 2: Automatic Error Detection
+
+If there is a mistake in the code, the system automatically detects the error. It identifies common Python errors such as syntax mistakes, undefined variables, wrong data type usage, and indentation issues.
+- Feature 3: Beginner-Friendly Error Explanation
+
+Instead of showing complex technical error messages, the website converts them into simple and easy English. This helps students understand what went wrong without getting confused by programming terminology
+- Feature 4: Clear Output Display
+
+If the code runs successfully, the output is shown clearly on the webpage. If there is no output, the system informs the student that the code executed successfully.
 
 ---
 
@@ -59,23 +61,13 @@ List the key features of your project:
 
 #### Installation
 ```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
+Installation commands - python --version, python -m pip install flask pandas scikit-learn
 ```
 
 #### Run
 ```bash
-[Run commands - e.g., npm start, python app.py]
+Run commands - python app.py
 ```
-
-### For Hardware:
-
-#### Components Required
-[List all components needed with specifications]
-
-#### Circuit Setup
-[Explain how to set up the circuit]
-
----
 
 ## Project Documentation
 
@@ -83,38 +75,17 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot1] ![alt text](<./Screenshot 2026-02-22 093151.png>)
+this image shows the explaination of the error occured 
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot2]![alt text](<./Screenshot 2026-02-22 102749.png>)
+this image shows the correct output 
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
 
-#### Diagrams
 
-**System Architecture:**
 
-![Architecture Diagram](docs/architecture.png)
-*Explain your system architecture - components, data flow, tech stack interaction*
 
-**Application Workflow:**
 
-![Workflow](docs/workflow.png)
-*Add caption explaining your workflow*
-
----
-
-### For Hardware:
-
-#### Schematic & Circuit
-
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
 
 #### Build Photos
 

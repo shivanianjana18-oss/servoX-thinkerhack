@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Python Error Helper</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            width: 95%;
+            max-width: 750px;
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(15px);
+            padding: 35px;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+            color: white;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 25px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        textarea {
+            width: 100%;
+            height: 200px;
+            padding: 15px;
+            font-size: 15px;
+            font-family: monospace;
+            border-radius: 12px;
+            border: none;
+            resize: none;
+            outline: none;
+            background: rgba(255, 255, 255, 0.9);
+            color: #333;
+            transition: 0.3s ease;
+        }
+
+        textarea:focus {
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.5);
+            transform: scale(1.01);
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 12px 22px;
+            font-size: 15px;
+            font-weight: 600;
+            background: linear-gradient(135deg, #43cea2, #185a9d);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        }
+
+        .output, .error {
+            margin-top: 25px;
+            padding: 15px;
+            border-radius: 12px;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        .output {
+            background: rgba(46, 204, 113, 0.15);
+            border-left: 5px solid #2ecc71;
+        }
+
+        .error {
+            background: rgba(231, 76, 60, 0.15);
+            border-left: 5px solid #e74c3c;
+        }
+
+        pre {
+            margin-top: 8px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 25px;
+            font-size: 13px;
+            opacity: 0.8;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+
+            textarea {
+                height: 160px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🐍 Python Beginner Helper</h1>
+
+    <form method="POST">
+        <textarea name="code" placeholder="Type your Python code here..."></textarea>
+        <button type="submit">Run Code 🚀</button>
+    </form>
+
+    {% if output %}
+    <div class="output">
+        <strong>Output:</strong>
+        <pre>{{ output }}</pre>
+    </div>
+    {% endif %}
+
+    {% if explanation %}
+    <div class="error">
+        <strong>Error Explanation:</strong>
+        <pre>{{ explanation }}</pre>
+    </div>
+    {% endif %}
+
+    <footer>
+        ✨ Simple & friendly Python error explanations for beginners
+    </footer>
+
+</div>
+
+</body>
+</html>
