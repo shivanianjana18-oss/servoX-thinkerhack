@@ -13,7 +13,7 @@
 - Member 2: Irine George - Toc h institute of science and technology
 
 ### Hosted Project Link
-https://shivanianjana18-oss.github.io/servoX-thinkerhack/
+https://servo-x-thinkerhack.vercel.app/
 
 ### Project Description
 Our website makes coding easy, friendly, understandable, and stress-free for students.The student types their Python code directly into the website. When they click the run button, the website executes the code in the background. If the program runs successfully, the output is displayed. However, if an error occurs, the system automatically detects the type of error generated
